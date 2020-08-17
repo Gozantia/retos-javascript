@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retos Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mis retos Javascript</h1>
+    
+    <input
+    type="text"
+    class="palindromo_input txt-md"
+    id="palindromo_text"
+    placeholder=" Escribe un palíndromo"
+  />
+  <br />
+  <button class="btn txt-md" id="btn_palindromo">
+   Comprueba si lo es
+  </button>
+  <span id="palindromo_response"></span>
+
+  <!-- Romanos -->
+  <br />
+  <br />
+<input
+    type="number"
+    class="romanos_input txt-md"
+    id="romanos_number"
+    placeholder=" Pon un número"
+  />
+  <br />
+  <button class="btn txt-md" id="btn_romanos">
+   Pásalo a números romanos
+  </button>
+  <span id="romanos_response"></span>
+  <br />
+  <br />
+  
+<!--Caesars-->
+<input 
+type="text"
+class="caesar_input txt-md"
+id="caesar_text" 
+VALUE="UBYN YVAQ@"
+><br />
+<button id="btn_caesar" class="btn txt-md">
+ Descubre lo que significa</button>
+ <span id="caesar_response"></span>
+ <br />
+ <br />
+<!--VALIDADOR NÚMERO DE TEELÉFONO EEUU-->
+ <input type="text" id="phone_text" class="phone_input txt-md" value="1 555 555 5555">
+ <br />
+ <button id="btn_phone" class="btn txt-md">
+  Verifica si es un teléfono en EEUU</button>
+  <div class="txt-xl" id="phone_response"></div>
+
+    <script src="index.js">
+    </script>
+</body>
+</html>
