@@ -41,7 +41,8 @@ function convertToRoman(num) {
     let romanized = '';
 //    Pone el arreglo al revés 
     const decimalKeys = Object.keys(numerals).reverse();
-    
+    //por cada índice del objeto y mientras la llave sea menor o igual
+    // al objeto, la variable será el número del número de la clave
     decimalKeys.forEach(key => {
       while (key <= num){
         romanized += numerals[key];
